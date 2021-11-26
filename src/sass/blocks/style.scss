@@ -2,9 +2,11 @@
 @import '../blocks/promo';
 @import '../blocks/header';
 @import '../blocks/buttons';
-/* * {
-    font-family: 'Museo Sans Cyrl', serif;
-} */
+@import '../blocks/advantage';
+
+* {
+    font-family: 'Museo Sans Cyrl', sans-serif;
+}
 
 .container {
     max-width: 950px;
