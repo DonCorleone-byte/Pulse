@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>pulse</title>
+    <link rel="icon" href="icons/pulse.ico" type="image/x-icon">
     <link rel="stylesheet" href="css/bootstrap-reboot.min.css">
     <link rel="stylesheet" href="css/fonts.css">
     <link rel="stylesheet" href="css/blocks/style.min.css">
@@ -45,7 +46,7 @@
                         Ответим на все вопросы
                     </div>
                 </div>
-                <button class="button button_main">заказать консультацию</button>
+                <a href="#call"><button class="button button_main">заказать консультацию</button></a>
                 <div class="promo__link">
                     или
                     <a href="#">ПЕРЕЙТИ В КАТАЛОГ</a>
@@ -110,10 +111,12 @@
                 <input name="phone" required placeholder="Ваш телефон" type="number">
                 <input name="email" required placeholder="Ваш E-mail" type="email">
                 <!-- <input type="submit" value="Заказать звонок"> -->
-                <button class="button button_submit">Заказать консультацию</button>
+                <button class="button button_submit" id="call">Заказать консультацию</button>
             </form>
         </div>
     </div>
+
+    <script src="js/script.js"></script>
 </body>
 
 </html>
