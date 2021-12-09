@@ -18,6 +18,15 @@
 		}
 	}
 }
+@media (max-width:1024px ) {
+	.carousel {
+		width: 80%;
+		margin: 0 auto;
+		img {
+			width: 100%;
+		}
+	}
+}
 @media ( max-width:991px ) {
 	.consultation {
 		padding-left: 10%;
@@ -26,11 +35,7 @@
 		}
 	}
 	.carousel {
-		width: 70%;
-		margin: 0 auto;
-		img {
-			width: 100%;
-		}
+		width: 80%;
 	}
 	.catalog {
 		&__content {
@@ -101,6 +106,9 @@
 			font-size: 14px;
 			height: 50px;
 		}
+	}
+	.carousel {
+		width: 70%;
 	}
 	.catalog {
 		.title {
@@ -187,6 +195,23 @@
 			height: 40px;
 		}
 	}
+	.carousel {
+		width: 60%;
+	}
+	.catalog {
+		.title {
+			font-size: 20px;
+		}
+		&__tabs {
+			margin-top: 27px;
+		}
+		&__tab {
+			width: 163px;
+			height: 40px;
+			font-size: 12px;
+			line-height: 36px;
+		}
+	}
 
 	.review {
 		.title {
@@ -194,6 +219,47 @@
 		}
 		&-about__descr {
 			font-size: 13px;
+		}
+	}
+}
+
+@media (max-width:359px) {
+	.header {
+		width: 90%;
+		&__official {
+			font-size: 11px;
+		}
+	.button {
+			width: 107px;
+		}
+	}
+	.catalog {
+		&__tab {
+			width: 93px;
+			height: 25px;
+			font-size: 10px;
+			line-height: 26px;
+			&__content {
+				margin-top: 32px;
+				justify-content: center;
+			}
+		}
+		&-item {
+			width: 276px;
+		}
+	}
+	.carousel {
+		width: 60%;
+	}
+	.review {
+		&-wrapper {
+			flex-wrap: wrap;
+			&__img {
+			margin: 0 auto;
+			}
+		}
+		&-about {
+			text-align: center;
 		}
 	}
 }
