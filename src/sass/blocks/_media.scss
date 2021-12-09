@@ -26,7 +26,7 @@
 		}
 	}
 	.carousel {
-		width: 80%;
+		width: 70%;
 		margin: 0 auto;
 		img {
 			width: 100%;
@@ -35,6 +35,14 @@
 	.catalog {
 		&__content {
 			justify-content: space-around;
+		}
+	}
+	.review {
+		&-wrapper {
+			&__img {
+				margin-right: 31px;
+				margin-left: 20px;
+			}
 		}
 	}
 }
@@ -92,6 +100,20 @@
 		.button_submit {
 			font-size: 14px;
 			height: 50px;
+		}
+	}
+	.catalog {
+		.title {
+			font-size: 25px;
+		}
+		&__tabs {
+			margin-top: 27px;
+		}
+		&__tab {
+			width: 163px;
+			height: 40px;
+			font-size: 14px;
+			line-height: 36px;
 		}
 	}
 
@@ -163,6 +185,15 @@
 		.button_submit {
 			font-size: 10px;
 			height: 40px;
+		}
+	}
+
+	.review {
+		.title {
+			font-size: 25px;
+		}
+		&-about__descr {
+			font-size: 13px;
 		}
 	}
 }
